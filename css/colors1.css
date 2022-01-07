@@ -1,0 +1,30 @@
+.header_top {
+	background: #0875ba;
+    background-size: 100% 100%;
+    border: none;}
+
+a.btn.main_bt,
+button.btn.main_bt {
+	background: #17a5e9;
+	border: none;}
+
+a.btn.main_bt:hover,
+a.btn.main_bt:focus,
+button.btn.main_bt:hover,
+button.btn.main_bt:focus {
+	background: #25d8ed;
+	background-size: 100% 100%;
+	color: #fff;}
+
+button.btn.white_btn, a.btn.white_btn, button.btn.white_btn, a.btn.white_btn {
+	color: #111;
+	text-transform: none;
+	text-shadow: none;}
+
+button.btn.white_btn:hover, 
+a.btn.white_btn:hover, 
+button.btn.white_btn:hover, 
+a.btn.white_btn:hover {
+	color: #0875ba;
+	text-transform: none;
+	background: #bdbdbf;}

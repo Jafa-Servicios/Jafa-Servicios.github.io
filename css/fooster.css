@@ -1,0 +1,99 @@
+/*FOOSTER*/   	
+
+.footer h3 {
+  color: #0875ba;
+  font-weight: 600;}
+
+.footer ul {
+  list-style: none;}
+
+.footer a {
+  text-decoration: none;}
+
+.section {
+  padding: 4.5rem 0 2.5rem;
+  background: #bdbdbf; }
+
+.container {
+  max-width: 968px;
+  margin-left: 1rem;
+  margin-right: 1rem;}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;}
+
+.footer__container {
+  row-gap: 5rem;}
+
+.footer__content {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;}
+
+.footer__title, 
+.footer__subtitle {
+  font-size: 1rem;}
+
+.footer__title {
+  margin-bottom: .5rem;}
+
+.footer__description {
+  margin-bottom: 2rem;}
+
+.footer__social {
+  font-size: 1.25rem;
+  color: #0875ba;
+  margin-right: 1.25rem;}
+
+.footer__subtitle {
+  margin-bottom: 1rem;}
+
+.footer__item {
+  margin-bottom: .75rem;}
+
+.footer__link {
+  color: #000;}
+
+.footer__link:hover {
+  color: #0875ba;}
+
+.footer__rights {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  text-align: center;}
+
+.footer__copy, .footer__terms-link {
+  font-size: .813rem;
+  color: #666;}
+
+.footer__terms {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
+
+.footer__terms-link:hover {
+  color: #777;
+}
+
+
+@media screen and (min-width: 768px) {
+   .section {
+    padding: 7rem 0 2rem;}
+  
+  .footer__rights {
+    flex-direction: row;
+    justify-content: space-between; }}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;}
+  
+  .footer__content {
+    justify-items: center; }}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1024px; }}
