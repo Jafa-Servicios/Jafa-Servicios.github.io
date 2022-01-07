@@ -107,7 +107,6 @@ body{
     height: 500px;
     position: relative;
     margin-top: 10px;
-    background-image: url('../Imagenes/img/fondo.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;}
